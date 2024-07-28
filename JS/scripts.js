@@ -21,3 +21,6 @@ document.querySelector('.home-section').addEventListener('mouseover', function()
 document.querySelector('.home-section').addEventListener('mouseout', function() {
     this.style.filter = 'blur(5px)';
 });
+
+// Initialize LightGallery
+lightGallery(document.getElementById('lightgallery'));

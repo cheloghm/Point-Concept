@@ -75,12 +75,26 @@ main {
     text-shadow: none;
 }
 
-.carousel-inner img {
-    height: 400px;
-    object-fit: cover;
-}
-
 footer {
     background: #f8f9fa;
     padding: 10px 0;
+}
+
+#lightgallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#lightgallery a {
+    flex: 1 0 calc(33.333% - 30px);
+    margin-bottom: 30px;
+}
+
+#lightgallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
