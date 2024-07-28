@@ -115,6 +115,44 @@ main {
     z-index: -1;
 }
 
+.about-section {
+    /* background: url('../img/April\ Showers\ 01.jpg') no-repeat center center/cover; Add your background image path */
+    color: black;
+    padding: 60px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white; /* Dark overlay */
+    z-index: -1;
+}
+
+.services-section {
+    /* background: url('../img/April\ Showers\ 04.jpg') no-repeat center center/cover; Add your background image path */
+    color: black;
+    padding: 60px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.services-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white; /* Dark overlay */
+    z-index: -1;
+}
+
 footer {
     background: #f8f9fa;
     padding: 10px 0;
