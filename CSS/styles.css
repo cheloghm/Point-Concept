@@ -140,3 +140,50 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.contact .info {
+    background: #fff;
+    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
+    padding: 30px;
+    width: 100%;
+}
+
+.contact .info h4 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.contact .info p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contact .info .address, .contact .info .email, .contact .info .phone {
+    margin-bottom: 20px;
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #007bff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e7f1fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+.contact .info .address:hover i, .contact .info .email:hover i, .contact .info .phone:hover i {
+    background: #007bff;
+    color: #fff;
+}
