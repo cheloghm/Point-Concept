@@ -11,37 +11,80 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Montserrat font -->
 </head>
 <body>
-    <div class="container py-5">
-        <h1 class="text-center mb-5">Our Portfolio</h1>
+    <div class="container-fluid">
         <div class="row">
-            <!-- Example Portfolio Item -->
-            <div class="col-md-6 mb-4">
-                <div class="card">
-                    <img src="img/project1.jpg" class="card-img-top" alt="Project Image">
-                    <div class="card-body">
-                        <h5 class="card-title">Project Title</h5>
-                        <p class="card-text">A brief description of the project.</p>
-                        <p><strong>Client:</strong> Client Name</p>
-                        <p><strong>Comment:</strong> "Client's feedback or comment."</p>
+            <!-- Sidebar -->
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky d-flex flex-column justify-content-between" style="height: 100vh;">
+                    <div>
+                        <div class="navbar-brand text-center py-4">
+                            <img src="img/logo.png" alt="Point Concept Ltd" class="img-fluid">
+                        </div>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#contact">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer class="text-center py-2">
+                        <p style="font-size: 0.8rem;">&copy; Designed & Created by <a href="https://fortiguardian.com/" target="_blank">FortiGuardian Consulting</a></p>
+                    </footer>
+                </div>
+            </nav>
+
+            <!-- Page content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="container py-5">
+                    <h1 class="text-center mb-5">Our Portfolio</h1>
+                    <div class="row">
+                        <!-- Example Portfolio Item -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="img/project1.jpg" class="card-img-top" alt="Project Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project Title</h5>
+                                    <p class="card-text">A brief description of the project.</p>
+                                    <p><strong>Client:</strong> Client Name</p>
+                                    <p><strong>Comment:</strong> "Client's feedback or comment."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Repeat for more projects -->
+
+                        <!-- Portfolio Item for Semi Detached Residences -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="img/semi_detached_residences.jpg" class="card-img-top" alt="Semi Detached Residences">
+                                <div class="card-body">
+                                    <h5 class="card-title">2 units Semi Detached Residences</h5>
+                                    <p class="card-text">A four-family luxury residence designed in a classy contemporary style on two units and two levels. Each unit consists of two semi-detached residences of five bedrooms.</p>
+                                    <p><strong>Client:</strong> Client Name</p>
+                                    <p><strong>Comment:</strong> "Client's feedback or comment."</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-            <!-- Repeat for more projects -->
-
-            <!-- Portfolio Item for Diamond Banks Branches -->
-            <div class="col-md-6 mb-4">
-                <div class="card">
-                    <img src="img/diamond_bank.jpg" class="card-img-top" alt="Diamond Bank Project">
-                    <div class="card-body">
-                        <h5 class="card-title">Diamond Banks Branches</h5>
-                        <p class="card-text">Consultancy services for various branches including Ikota, Onne Rivers State, and Asaba 2 Delta State.</p>
-                        <p><strong>Client:</strong> Diamond Banks</p>
-                        <p><strong>Comment:</strong> "Professional and timely service delivery."</p>
-                    </div>
-                </div>
-            </div>
-
-
+                <footer class="text-center py-4">
+                    <p>&copy; 2024 Point Concept Ltd. All rights reserved.</p>
+                </footer>
+            </main>
         </div>
     </div>
 
