@@ -116,8 +116,14 @@ main {
 .services-section {
     color: black;
     padding: 60px 0;
+    padding-left: 20px;
     position: relative;
     z-index: 0;
+}
+
+.services-section .service-list {
+    padding-left: 60px; /* Adjust this value for the desired amount of padding */
+    margin-top: 20px;   /* Optional: Add some margin to the top for spacing */
 }
 
 footer {
