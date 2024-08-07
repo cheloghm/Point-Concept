@@ -241,3 +241,13 @@ footer {
 .home-section:hover .home-content {
     background-color: rgba(0, 0, 0, 0.6); /* Change background color on hover */
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  color: #173b6c;
+}
