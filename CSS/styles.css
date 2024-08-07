@@ -204,3 +204,40 @@ footer {
     height: 200px;
     object-fit: cover;
 }
+
+.home-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.home-content {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3); /* Add semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home-content img.logo-center {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.home-section:hover .home-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Change background color on hover */
+}
