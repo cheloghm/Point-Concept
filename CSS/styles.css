@@ -220,7 +220,7 @@ footer {
     object-fit: cover;
 }
 
-.home-content {
+.home-content{
     position: absolute;
     z-index: 1;
     color: white;
@@ -233,6 +233,10 @@ footer {
     border-radius: 10px;
 }
 
+.home-content h1 h6{
+    color: white;
+}
+
 .home-content img.logo-center {
     width: 150px;
     margin-bottom: 20px;
@@ -242,12 +246,10 @@ footer {
     background-color: rgba(0, 0, 0, 0.6); /* Change background color on hover */
 }
 
-h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
   font-family: "Raleway", sans-serif;
   color: #173b6c;
 }
