@@ -254,55 +254,48 @@ h5{
   color: #173b6c;
 }
 
-#gallery .card {
-    border: none;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+/* Logo styling with faint shadow */
+.gallery-logo {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); /* Faint shadow */
+    border-radius: 8px; /* Optional: Adds subtle rounding to logos */
 }
 
-#gallery .card img {
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
+/* Hover effect: Slight zoom and darker shadow */
+.gallery-logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
 }
 
-#gallery .modal img {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
+/* Caption styling */
+.gallery-caption {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: 500;
 }
 
-#gallery .modal-body {
-    max-height: 500px;
-    overflow-y: auto;
-}
-
-.row.flex-nowrap {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-}
-
-.row.flex-nowrap .col-lg-3 {
-    flex: 0 0 auto;
-    width: auto;
-}
-
-#gallery .card a {
+/* Optional: Remove underline from links */
+a.text-decoration-none {
+    text-decoration: none;
     color: inherit;
 }
 
-#gallery .card a:hover {
-    text-decoration: none;
+/* Horizontal scrolling for logos */
+#gallery .row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px; /* Space between logos */
 }
 
-#gallery .card a img {
-    transition: transform 0.2s;
+#gallery .col-lg-3, #gallery .col-md-4, #gallery .col-sm-6 {
+    flex: 0 0 auto;
 }
 
-#gallery .card a:hover img {
-    transform: scale(1.05); /* Optional: Add a slight zoom effect on hover */
-}
-
-#gallery .card a {
-    cursor: pointer;
+/* Add spacing between projects */
+#gallery .col-lg-3 {
+    padding: 0 15px;
 }
