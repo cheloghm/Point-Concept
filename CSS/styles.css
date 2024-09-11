@@ -286,3 +286,23 @@ h5{
     flex: 0 0 auto;
     width: auto;
 }
+
+#gallery .card a {
+    color: inherit;
+}
+
+#gallery .card a:hover {
+    text-decoration: none;
+}
+
+#gallery .card a img {
+    transition: transform 0.2s;
+}
+
+#gallery .card a:hover img {
+    transform: scale(1.05); /* Optional: Add a slight zoom effect on hover */
+}
+
+#gallery .card a {
+    cursor: pointer;
+}
