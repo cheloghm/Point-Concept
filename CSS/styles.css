@@ -299,3 +299,19 @@ a.text-decoration-none {
 #gallery .col-lg-3 {
     padding: 0 15px;
 }
+
+/* Hide horizontal scrollbar but still allow horizontal scrolling */
+#gallery .row {
+    overflow-x: scroll;  /* Enable scrolling */
+    scrollbar-width: none;  /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none;  /* Hide scrollbar in Internet Explorer */
+}
+
+#gallery .row::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+}
+
+/* Adjust padding to avoid extra space at the bottom */
+#gallery {
+    padding-bottom: 20px;  /* Adjust as necessary */
+}
