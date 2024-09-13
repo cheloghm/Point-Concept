@@ -32,7 +32,7 @@ body {
 }
 
 .nav-link {
-    color: #333;
+    color: #011224;
 }
 
 .nav-link.active {
@@ -62,7 +62,7 @@ main {
 /* Service Icons */
 .service-list i {
     margin-right: 8px;
-    color: #333;
+    color: #011224;
 }
 
 /* Subtle Hover Effect */
@@ -92,7 +92,7 @@ h1, h2 {
 }
 
 .service-box i {
-    color: #007bff;
+    color: #011224;
     margin-bottom: 15px;
 }
 
@@ -105,8 +105,6 @@ h1, h2 {
     color: #555;
     margin-bottom: 0;
 }
-
-
 
 @media (max-width: 768px) {
     .sidebar {
@@ -163,7 +161,7 @@ h1, h2 {
 }
 
 .about-section {
-    color: black;
+    color: #011224;
     padding: 60px 0;
     position: relative;
     z-index: 0;
@@ -182,28 +180,28 @@ h1, h2 {
 }
 
 .about-box i {
-    color: #333;
+    color: #011224;
 }
 
 .about-box h4 {
     font-weight: 600;
-    color: #333;
+    color: #011224;
 }
 
 .list-unstyled li {
     font-size: 1rem;
     margin-bottom: 10px;
-    color: #555;
+    color: #011224;
 }
 
 .list-unstyled li i {
-    color: #333;
+    color: #011224;
     font-size: 1.2rem;
 }
 
 
 .services-section {
-    color: black;
+    color: #011224;
     padding: 60px 0;
     padding-left: 20px;
     position: relative;
@@ -250,7 +248,7 @@ footer {
 
 .contact .info h4 {
     font-size: 22px;
-    color: #333;
+    color: #011224;
     font-weight: 700;
     margin: 0 0 10px 0;
     padding: 0;
@@ -259,7 +257,7 @@ footer {
 
 .contact .info p {
     font-size: 14px;
-    color: #333;
+    color: #011224;
     margin: 0;
     padding: 0;
 }
@@ -270,7 +268,7 @@ footer {
 
 .contact .info i {
     font-size: 20px;
-    color: #333;
+    color: #011224;
     float: left;
     width: 44px;
     height: 44px;
@@ -284,7 +282,7 @@ footer {
 }
 
 .contact .info .address:hover i, .contact .info .email:hover i, .contact .info .phone:hover i {
-    background: #333;
+    background: #011224;
     color: #fff;
 }
 
@@ -362,7 +360,7 @@ h5{
 /* Caption styling */
 .gallery-caption {
     font-size: 14px;
-    color: #333;
+    color: #011224;
     margin-top: 10px;
     font-weight: 500;
 }
@@ -422,7 +420,7 @@ a.text-decoration-none {
     font-size: 16px;
     font-weight: 500;
     margin-top: 10px;
-    color: #333;
+    color: #011224;
 }
 
 /* Modal image grid styling */
@@ -450,7 +448,7 @@ a.text-decoration-none {
 /* Modal body styling */
 .modal-body {
     font-size: 16px;
-    color: #444;
+    color: #011224;
 }
 
 .modal-body h6 {
@@ -461,7 +459,7 @@ a.text-decoration-none {
 
 /* Modal footer button */
 .modal-footer button {
-    background-color: #333;
+    background-color: #011224;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -470,7 +468,7 @@ a.text-decoration-none {
 }
 
 .modal-footer button:hover {
-    background-color: #333;
+    background-color: #011224;
 }
 
 
@@ -498,7 +496,7 @@ a.text-decoration-none {
 }
 
 .contact-box i {
-    color: #007bff;
+    color: #011224;
 }
 
 .contact-box h4 {
@@ -508,12 +506,12 @@ a.text-decoration-none {
 }
 
 .contact-box p {
-    color: #333;
+    color: #011224;
     font-size: 1rem;
 }
 
 .contact-box a {
-    color: #007bff;
+    color: #011224;
 }
 
 .contact-box:hover {
@@ -543,7 +541,7 @@ a.text-decoration-none {
 .modal-title {
     font-size: 1.75rem;
     font-weight: 600;
-    color: #007bff;
+    color: #011224;
 }
 
 .modal-header .fas {
@@ -560,12 +558,12 @@ a.text-decoration-none {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #333;
+    color: #011224;
 }
 
 .modal-body .fas {
     margin-right: 8px;
-    color: #007bff;
+    color: #011224;
 }
 
 .modal-list {
