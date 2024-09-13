@@ -31,3 +31,6 @@ window.addEventListener('scroll', function() {
 
 // Initialize LightGallery
 lightGallery(document.getElementById('lightgallery'));
+
+// Initialize Lightbox if necessary
+lightGallery(document.querySelectorAll('.modal-image-grid img'));

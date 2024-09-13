@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Point Concept Ltd</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/css/lightgallery.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/favicon.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Montserrat font -->
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Point Concept Ltd</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0/css/lightgallery.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> <!-- Montserrat & Playfair Display -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>    
 <body>
     <div class="container-fluid">
         <div class="row">
@@ -22,19 +23,19 @@
                         </div>
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#home">Home</a>
+                                <a class="nav-link active" href="#home"><i class="fas fa-home"></i> Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">About Us</a>
+                                <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
+                                <a class="nav-link" href="#services"><i class="fas fa-cogs"></i> Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#gallery">Portfolio</a>
+                                <a class="nav-link" href="#gallery"><i class="fas fa-images"></i> Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact Us</a>
+                                <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -42,7 +43,7 @@
                         <p style="font-size: 0.8rem;">&copy; Designed & Created by <a href="https://fortiguardian.com/" target="_blank">FortiGuardian Consulting</a></p>
                     </footer>
                 </div>
-            </nav>
+            </nav>            
 
             <!-- Page content -->
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
@@ -80,128 +81,225 @@
 
                 <!-- About Section -->
                 <section id="about" class="container py-5 about-section">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 text-center">
-                            <h2>About Us</h2>
-                            <p>Welcome to Point Concept Ltd</p>
-                            <p>At Point Concept Ltd, we are passionate about creating beautiful, sustainable architecture that enhances the modern world. As a leading design and construction firm, we provide comprehensive engineering, construction project management, and building design services for residential, corporate, and academic buildings.</p>
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-lg-8 text-center">
+                            <h2 class="mb-3"><i class="fas fa-info-circle"></i> About Us</h2>
+                            <p class="lead">At Point Concept Ltd, we turn dreams into reality with sustainable and aesthetically pleasing designs. We offer the perfect blend of innovation and craftsmanship to build the future.</p>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 text-center">
-                            <h3>Who We Are</h3>
-                            <p>Point Concept Ltd is driven by a team of highly motivated professionals who are experts in their respective fields. Our team includes architects, civil/structural engineers, mechanical/electrical engineers, quantity surveyors, and project supervisors. This diverse expertise allows us to deliver innovative and aesthetically pleasing designs that are also financially informed.</p>
+
+                    <div class="row text-center justify-content-center">
+                        <!-- Who We Are -->
+                        <div class="col-md-4 mb-5">
+                            <div class="about-box shadow-sm p-4">
+                                <i class="fas fa-users fa-3x mb-3"></i>
+                                <h4>Who We Are</h4>
+                                <p>Our highly skilled team includes architects, engineers, and surveyors, all working together to bring your vision to life.</p>
+                            </div>
                         </div>
-                        <div class="col-lg-4 text-center">
-                            <h3>Our Philosophy</h3>
-                            <p>Our approach is rooted in collaboration and creativity. We believe in working closely with our clients to understand their needs and vision, bringing together owners, users, and professionals in a synergy of knowledge and effort. This team approach ensures that we can explore creative opportunities within each project, achieving outstanding results and enhanced solutions.</p>
+
+                        <!-- Our Philosophy -->
+                        <div class="col-md-4 mb-5">
+                            <div class="about-box shadow-sm p-4">
+                                <i class="fas fa-lightbulb fa-3x mb-3"></i>
+                                <h4>Our Philosophy</h4>
+                                <p>Creativity and collaboration drive us. We listen to our clients and deliver innovative, lasting solutions for every project.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <h3>Why Choose Point Concept Ltd?</h3>
-                            <ul>
-                                <li><strong>Value for Money:</strong> We deliver exceptional value through our loyalty, professional conduct, and commitment to excellence.</li>
-                                <li><strong>Customer Service:</strong> Our clients enjoy a professional, confidential service with efficient and effective operations.</li>
-                                <li><strong>Streamlined Operations:</strong> We use the latest technology to produce detailed, professional reports and achieve outstanding results promptly.</li>
-                                <li><strong>Project Progress:</strong> We keep our clients informed at every stage, ensuring transparency and confidence in our process.</li>
-                            </ul>
+
+                        <!-- Why Choose Us -->
+                        <div class="col-md-4 mb-5">
+                            <div class="about-box shadow-sm p-4">
+                                <i class="fas fa-award fa-3x mb-3"></i>
+                                <h4>Why Choose Us?</h4>
+                                <ul class="list-unstyled text-left">
+                                    <li><i class="fas fa-dollar-sign me-2"></i>Value for Money</li>
+                                    <li><i class="fas fa-user-shield me-2"></i>Confidential Service</li>
+                                    <li><i class="fas fa-cogs me-2"></i>Streamlined Operations</li>
+                                    <li><i class="fas fa-project-diagram me-2"></i>Project Transparency</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- Services Section -->
                 <section id="services" class="container py-5 services-section">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10 pl-lg-5">
-                            <h2>Our Services</h2>
-                            <p>At Point Concept Ltd, we offer a diverse range of architectural and engineering services tailored to meet the unique needs of our clients. Our comprehensive services include:</p>
-                                <ul class="service-list">
-                                    <li><strong>Residential Design:</strong> Creating beautiful and functional living spaces that meet the needs and lifestyles of our clients.</li>
-                                    <li><strong>Commercial Design:</strong> Designing innovative and sustainable commercial buildings that enhance business operations.</li>
-                                    <li><strong>Interior Design:</strong> Crafting elegant and efficient interior spaces that reflect the identity and needs of our clients.</li>
-                                    <li><strong>Landscape Architecture:</strong> Planning and designing outdoor spaces that integrate seamlessly with the built environment and natural surroundings.</li>
-                                    <li><strong>Project Management:</strong> Overseeing the entire project lifecycle to ensure timely delivery, budget adherence, and quality outcomes.</li>
-                                    <li><strong>Consultancy Services:</strong> Providing expert advice and solutions to complex architectural and engineering challenges.</li>
-                                </ul>
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-lg-8 text-center">
+                            <h2 class="mb-3"><i class="fas fa-briefcase"></i> Our Services</h2>
+                            <p class="lead">We provide a diverse range of architectural and engineering services, tailored to meet the specific needs of our clients. Our team brings expertise and creativity to every project, ensuring excellence at every stage.</p>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <!-- Residential Design -->
+                        <div class="col-md-4 mb-5">
+                            <div class="service-box shadow-sm p-4">
+                                <i class="fas fa-home fa-3x mb-3"></i>
+                                <h4>Residential Design</h4>
+                                <p>We design beautiful, functional homes that meet your lifestyle and vision.</p>
+                            </div>
+                        </div>
+
+                        <!-- Commercial Design -->
+                        <div class="col-md-4 mb-5">
+                            <div class="service-box shadow-sm p-4">
+                                <i class="fas fa-building fa-3x mb-3"></i>
+                                <h4>Commercial Design</h4>
+                                <p>Creating modern, efficient commercial spaces that boost productivity and reflect your brand.</p>
+                            </div>
+                        </div>
+
+                        <!-- Interior Design -->
+                        <div class="col-md-4 mb-5">
+                            <div class="service-box shadow-sm p-4">
+                                <i class="fas fa-couch fa-3x mb-3"></i>
+                                <h4>Interior Design</h4>
+                                <p>Crafting elegant interiors that merge aesthetics with functionality.</p>
+                            </div>
+                        </div>
+
+                        <!-- Landscape Architecture -->
+                        <div class="col-md-4 mb-5">
+                            <div class="service-box shadow-sm p-4">
+                                <i class="fas fa-tree fa-3x mb-3"></i>
+                                <h4>Landscape Architecture</h4>
+                                <p>Designing sustainable outdoor spaces that seamlessly integrate with nature.</p>
+                            </div>
+                        </div>
+
+                        <!-- Project Management -->
+                        <div class="col-md-4 mb-5">
+                            <div class="service-box shadow-sm p-4">
+                                <i class="fas fa-tasks fa-3x mb-3"></i>
+                                <h4>Project Management</h4>
+                                <p>Managing every aspect of your project, ensuring on-time, on-budget delivery.</p>
+                            </div>
+                        </div>
+
+                        <!-- Consultancy Services -->
+                        <div class="col-md-4 mb-5">
+                            <div class="service-box shadow-sm p-4">
+                                <i class="fas fa-comments fa-3x mb-3"></i>
+                                <h4>Consultancy Services</h4>
+                                <p>Providing expert advice and creative solutions to complex challenges.</p>
+                            </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- Gallery Section -->
                 <section id="gallery" class="container py-5">
-                    <h2>Portfolio</h2>
+                    <h2 class="text-center mb-4"><i class="fas fa-images"></i> Portfolio</h2>
                     <div class="row flex-nowrap overflow-auto">
-                        <!-- Gallery Item (Diamond Bank) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#diamondBankModal" class="text-decoration-none">
-                                <img src="img/Logos/diamondBank.png" class="gallery-logo mx-auto" alt="Diamond Bank Logo">
-                            </a>
-                        </div>
-
-                        <!-- Gallery Item (Heritage Bank) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#heritageBankModal" class="text-decoration-none">
-                                <img src="img/Logos/heritageBank.jpg" class="gallery-logo mx-auto" alt="Heritage Bank Logo">
-                            </a>
-                        </div>
+                        <div class="row flex-nowrap overflow-auto">
+                            <!-- Gallery Item (Diamond Bank) -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#diamondBankModal" class="text-decoration-none gallery-item">
+                                    <img src="img/Logos/diamondBank.png" class="gallery-logo mx-auto" alt="Diamond Bank Logo">
+                                    <div class="gallery-caption">Diamond Bank - Consultancy</div>
+                                </a>
+                            </div>
+                    
+                            <!-- Gallery Item (Heritage Bank) -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#heritageBankModal" class="text-decoration-none gallery-item">
+                                    <img src="img/Logos/heritageBank.jpg" class="gallery-logo mx-auto" alt="Heritage Bank Logo">
+                                    <div class="gallery-caption">Heritage Bank - Consultancy</div>
+                                </a>
+                            </div>
 
                         <!-- Gallery Item (Redeemed Christian Church of God) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#rccgModal" class="text-decoration-none">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#rccgModal" class="text-decoration-none gallery-item">
                                 <img src="img/Logos/rcc.png" class="gallery-logo mx-auto" alt="RCCG Logo">
+                                <div class="gallery-caption">RCCG - Consultancy & Construction</div>
                             </a>
                         </div>
 
                         <!-- Gallery Item (Emzor Pharmaceuticals) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#emzorModal" class="text-decoration-none">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#emzorModal" class="text-decoration-none gallery-item">
                                 <img src="img/Logos/emzor.jpg" class="gallery-logo mx-auto" alt="Emzor Pharmaceuticals Logo">
+                                <div class="gallery-caption">Emzor Pharmaceuticals - Consultancy</div>
                             </a>
                         </div>
 
                         <!-- Gallery Item (HubMart Stores) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#hubmartModal" class="text-decoration-none">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#hubmartModal" class="text-decoration-none gallery-item">
                                 <img src="img/Logos/hubmart-logo.jpg" class="gallery-logo mx-auto" alt="HubMart Stores Logo">
+                                <div class="gallery-caption">HubMart Stores - Consultancy</div>
                             </a>
                         </div>
 
                         <!-- Gallery Item (Private Residential) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#privateResidentialModal" class="text-decoration-none">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#privateResidentialModal" class="text-decoration-none gallery-item">
                                 <img src="img/Logos/Picture8.jpg" class="gallery-logo mx-auto" alt="Private Residential Project Logo">
+                                <div class="gallery-caption">Private Residential - Development</div>
                             </a>
                         </div>
                     </div>
-
-                    <!-- Diamond Bank Modal -->
+                    <!-- Improved Modal Structure (Example: Diamond Bank Modal) -->
                     <div class="modal fade" id="diamondBankModal" tabindex="-1" aria-labelledby="diamondBankModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Diamond Bank - Consultancy</h5>
+                                <!-- Modal Header -->
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title"><i class="fas fa-building"></i> Diamond Bank - Consultancy</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
+
+                                <!-- Modal Body -->
                                 <div class="modal-body">
-                                    <h6>Project Overview</h6>
-                                    <p>The bank management initiated an expansion drive of various business offices around the country, and our team was among the consultants invited to actualize this.</p>
-                                    <h6>Project Details</h6>
-                                    <p>The client desired a modern and exclusive banking environment for its staff and especially their customers. Exclusivity of customers’ banking experiences was of utmost importance to the client, and that was our inspiration.</p>
-                                    <h6>Goals and Achievements</h6>
-                                    <ul>
-                                        <li>Created a luxurious and exclusive banking environment.</li>
-                                        <li>Enhanced customer experience through modern design.</li>
-                                        <li>Integrated functional layouts to improve operational efficiency.</li>
-                                    </ul>
-                                    <div class="row">
-                                        <!-- Images of the project -->
+                                    <!-- Project Overview -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
+                                        <p>The bank management initiated an expansion drive of various business offices around the country, and our team was among the consultants invited to actualize this.</p>
+                                    </div>
+
+                                    <!-- Project Details -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
+                                        <p>We designed a modern and exclusive banking environment tailored to staff and customers. The ambiance promotes luxury and enhances operational efficiency.</p>
+                                    </div>
+
+                                    <!-- Goals and Achievements -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
+                                        <ul class="modal-list">
+                                            <li>Luxurious and modern banking environment.</li>
+                                            <li>Enhanced customer experience through exclusive spaces.</li>
+                                            <li>Efficient operational layouts for improved productivity.</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Image Gallery -->
+                                    <div class="row modal-image-grid">
                                         <div class="col-md-4 mb-3">
-                                            <img src="img/diamondBankProject1.jpg" class="img-fluid" alt="Diamond Bank Project Image 1" style="width: 300px; height: 300px;">
+                                            <img src="img/diamondBankProject1.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 1">
                                         </div>
-                                        <!-- Add 5 more images -->
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/diamondBankProject2.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 2">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/diamondBankProject3.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 3">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/diamondBankProject4.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 4">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/diamondBankProject5.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 5">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/diamondBankProject6.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 6">
+                                        </div>
                                     </div>
                                 </div>
+
+                                <!-- Modal Footer -->
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 </div>
@@ -213,25 +311,46 @@
                     <div class="modal fade" id="heritageBankModal" tabindex="-1" aria-labelledby="heritageBankModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Heritage Bank - Consultancy</h5>
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title"><i class="fas fa-building"></i> Heritage Bank - Consultancy</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <h6>Project Overview</h6>
-                                    <p>We developed comprehensive design solutions to enhance the operational efficiency of Heritage Bank’s facilities.</p>
-                                    <h6>Goals and Achievements</h6>
-                                    <ul>
-                                        <li>Optimized interior layout for better staff performance.</li>
-                                        <li>Improved customer service areas with modern design elements.</li>
-                                        <li>Introduced innovative space planning for flexibility.</li>
-                                    </ul>
-                                    <div class="row">
-                                        <!-- Images of the project -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
+                                        <p>We developed comprehensive design solutions to enhance the operational efficiency of Heritage Bank’s facilities. The goal was to modernize the space and improve both employee and customer experiences.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
+                                        <p>We provided innovative designs for the bank's layout, with a focus on operational efficiency and customer interaction zones. This project also included workspace optimization to foster better productivity.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
+                                        <ul class="modal-list">
+                                            <li>Optimized layout for improved staff performance.</li>
+                                            <li>Modernized customer service zones.</li>
+                                            <li>Enhanced operational workflows and space planning.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="row modal-image-grid">
                                         <div class="col-md-4 mb-3">
-                                            <img src="img/heritageBankProject1.jpg" class="img-fluid" alt="Heritage Bank Project Image 1" style="width: 300px; height: 300px;">
+                                            <img src="img/heritageBankProject1.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 1">
                                         </div>
-                                        <!-- Add 5 more images -->
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/heritageBankProject2.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 2">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/heritageBankProject3.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 3">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/heritageBankProject4.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 4">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/heritageBankProject5.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 5">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/heritageBankProject6.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 6">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -245,25 +364,46 @@
                     <div class="modal fade" id="rccgModal" tabindex="-1" aria-labelledby="rccgModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Redeemed Christian Church of God - Consultancy & Construction</h5>
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title"><i class="fas fa-church"></i> RCCG - Consultancy & Construction</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <h6>Project Overview</h6>
-                                    <p>Point Concept Ltd. played a key role in the expansion of RCCG’s facilities, providing architectural consultancy and overseeing construction work from start to finish.</p>
-                                    <h6>Goals and Achievements</h6>
-                                    <ul>
-                                        <li>Expanded the seating capacity to accommodate more congregants.</li>
-                                        <li>Introduced a modern, comfortable, and welcoming worship space.</li>
-                                        <li>Incorporated sustainable materials and energy-efficient designs.</li>
-                                    </ul>
-                                    <div class="row">
-                                        <!-- Images of the project -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
+                                        <p>We were involved in the expansion of RCCG’s facilities, ensuring a modern, comfortable, and sustainable worship space while adhering to project timelines and budgets.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
+                                        <p>Our approach was to expand seating capacity, improve interior comfort, and integrate sustainable design principles. This allowed us to modernize the worship environment without losing its traditional essence.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
+                                        <ul class="modal-list">
+                                            <li>Expanded seating capacity for increased attendance.</li>
+                                            <li>Modernized interior design for comfort and ambiance.</li>
+                                            <li>Incorporated eco-friendly and energy-efficient materials.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="row modal-image-grid">
                                         <div class="col-md-4 mb-3">
-                                            <img src="img/rccgProject1.jpg" class="img-fluid" alt="RCCG Project Image 1" style="width: 300px; height: 300px;">
+                                            <img src="img/rccgProject1.jpg" class="img-fluid project-image" alt="RCCG Project Image 1">
                                         </div>
-                                        <!-- Add 5 more images -->
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/rccgProject2.jpg" class="img-fluid project-image" alt="RCCG Project Image 2">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/rccgProject3.jpg" class="img-fluid project-image" alt="RCCG Project Image 3">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/rccgProject4.jpg" class="img-fluid project-image" alt="RCCG Project Image 4">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/rccgProject5.jpg" class="img-fluid project-image" alt="RCCG Project Image 5">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/rccgProject6.jpg" class="img-fluid project-image" alt="RCCG Project Image 6">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -277,25 +417,46 @@
                     <div class="modal fade" id="emzorModal" tabindex="-1" aria-labelledby="emzorModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Emzor Pharmaceuticals - Consultancy</h5>
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title"><i class="fas fa-pills"></i> Emzor Pharmaceuticals - Consultancy</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <h6>Project Overview</h6>
-                                    <p>Our consultancy services at Emzor Pharmaceuticals focused on expanding and modernizing their production facilities to meet growing demand and improve efficiency.</p>
-                                    <h6>Goals and Achievements</h6>
-                                    <ul>
-                                        <li>Increased production capacity with innovative facility layout.</li>
-                                        <li>Incorporated cutting-edge technology in the design of production floors.</li>
-                                        <li>Enhanced workflow and productivity through optimized space utilization.</li>
-                                    </ul>
-                                    <div class="row">
-                                        <!-- Images of the project -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
+                                        <p>Our team provided consultancy services to expand Emzor’s production facilities, integrating advanced technology and improving overall workflow to meet increasing demand.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
+                                        <p>We modernized the facility layout, incorporated cutting-edge technologies, and optimized the workspace for better efficiency and productivity.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
+                                        <ul class="modal-list">
+                                            <li>Increased production capacity through optimized design.</li>
+                                            <li>Enhanced workflow with modern technologies.</li>
+                                            <li>Improved space utilization for better productivity.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="row modal-image-grid">
                                         <div class="col-md-4 mb-3">
-                                            <img src="img/emzorProject1.jpg" class="img-fluid" alt="Emzor Project Image 1" style="width: 300px; height: 300px;">
+                                            <img src="img/emzorProject1.jpg" class="img-fluid project-image" alt="Emzor Project Image 1">
                                         </div>
-                                        <!-- Add 5 more images -->
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/emzorProject2.jpg" class="img-fluid project-image" alt="Emzor Project Image 2">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/emzorProject3.jpg" class="img-fluid project-image" alt="Emzor Project Image 3">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/emzorProject4.jpg" class="img-fluid project-image" alt="Emzor Project Image 4">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/emzorProject5.jpg" class="img-fluid project-image" alt="Emzor Project Image 5">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/emzorProject6.jpg" class="img-fluid project-image" alt="Emzor Project Image 6">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -309,25 +470,46 @@
                     <div class="modal fade" id="hubmartModal" tabindex="-1" aria-labelledby="hubmartModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">HubMart Stores - Consultancy</h5>
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title"><i class="fas fa-store"></i> HubMart Stores - Consultancy</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <h6>Project Overview</h6>
-                                    <p>We worked with HubMart Stores to enhance their retail spaces, creating efficient, modern, and visually appealing stores that improved customer engagement and shopping experience.</p>
-                                    <h6>Goals and Achievements</h6>
-                                    <ul>
-                                        <li>Designed intuitive retail layouts for better customer flow.</li>
-                                        <li>Created inviting, visually appealing shopping environments.</li>
-                                        <li>Integrated energy-efficient lighting and sustainable materials.</li>
-                                    </ul>
-                                    <div class="row">
-                                        <!-- Images of the project -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
+                                        <p>We collaborated with HubMart to optimize their retail spaces, improving customer flow, store layouts, and overall shopping experiences.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
+                                        <p>Our design solutions focused on creating intuitive layouts, enhancing visual appeal, and integrating sustainable materials to improve the shopping environment.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
+                                        <ul class="modal-list">
+                                            <li>Enhanced customer experience with modern retail layouts.</li>
+                                            <li>Introduced sustainable design features.</li>
+                                            <li>Optimized space for improved customer flow and engagement.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="row modal-image-grid">
                                         <div class="col-md-4 mb-3">
-                                            <img src="img/hubmartProject1.jpg" class="img-fluid" alt="HubMart Project Image 1" style="width: 300px; height: 300px;">
+                                            <img src="img/hubmartProject1.jpg" class="img-fluid project-image" alt="HubMart Project Image 1">
                                         </div>
-                                        <!-- Add 5 more images -->
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/hubmartProject2.jpg" class="img-fluid project-image" alt="HubMart Project Image 2">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/hubmartProject3.jpg" class="img-fluid project-image" alt="HubMart Project Image 3">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/hubmartProject4.jpg" class="img-fluid project-image" alt="HubMart Project Image 4">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/hubmartProject5.jpg" class="img-fluid project-image" alt="HubMart Project Image 5">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/hubmartProject6.jpg" class="img-fluid project-image" alt="HubMart Project Image 6">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -341,25 +523,46 @@
                     <div class="modal fade" id="privateResidentialModal" tabindex="-1" aria-labelledby="privateResidentialModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Private Residential - Residential Developments</h5>
+                                <div class="modal-header bg-light">
+                                    <h5 class="modal-title"><i class="fas fa-home"></i> Private Residential - Residential Developments</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <h6>Project Overview</h6>
-                                    <p>Point Concept Ltd. managed several high-end residential development projects for private clients, focusing on delivering luxurious, modern homes with stunning architectural design.</p>
-                                    <h6>Goals and Achievements</h6>
-                                    <ul>
-                                        <li>Delivered bespoke luxury homes tailored to client specifications.</li>
-                                        <li>Incorporated state-of-the-art design features and sustainable materials.</li>
-                                        <li>Created beautiful living spaces that combine form and function.</li>
-                                    </ul>
-                                    <div class="row">
-                                        <!-- Images of the project -->
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
+                                        <p>We managed high-end residential development projects for private clients, focusing on luxurious, modern, and highly functional homes tailored to client specifications.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
+                                        <p>The project scope included designing custom living spaces, incorporating state-of-the-art technologies, and ensuring that every home was unique and luxurious.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
+                                        <ul class="modal-list">
+                                            <li>Delivered bespoke luxury homes tailored to each client's needs.</li>
+                                            <li>Integrated cutting-edge technologies in home designs.</li>
+                                            <li>Created unique, aesthetically pleasing, and functional living spaces.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="row modal-image-grid">
                                         <div class="col-md-4 mb-3">
-                                            <img src="img/privateResidentialProject1.jpg" class="img-fluid" alt="Private Residential Project Image 1" style="width: 300px; height: 300px;">
+                                            <img src="img/privateResidentialProject1.jpg" class="img-fluid project-image" alt="Private Residential Project Image 1">
                                         </div>
-                                        <!-- Add 5 more images -->
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/privateResidentialProject2.jpg" class="img-fluid project-image" alt="Private Residential Project Image 2">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/privateResidentialProject3.jpg" class="img-fluid project-image" alt="Private Residential Project Image 3">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/privateResidentialProject4.jpg" class="img-fluid project-image" alt="Private Residential Project Image 4">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/privateResidentialProject5.jpg" class="img-fluid project-image" alt="Private Residential Project Image 5">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <img src="img/privateResidentialProject6.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -368,55 +571,67 @@
                             </div>
                         </div>
                     </div>
+
                 </section>
 
                 <!-- Contact Section -->
-                <section id="contact" class="contact">
-                  <div class="container">
-                    <div class="section-title">
-                      <h2>Get in Touch</h2>
-                      <p>If you're looking for innovative architectural designs or need expert advice on sustainable building solutions, we're here to help. Contact Point Concept Ltd today to discuss how we can bring your vision to life.</p>
-                    </div>
-
-                    <div class="row" data-aos="fade-in">
-                      <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
-                          <div class="address">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>Your Business Address</p>
-                          </div>
-
-                          <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>contact@pointconcept.com</p>
-                          </div>
-
-                          <div class="phone">
-                            <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+1 234 567 8901</p>
-                          </div>
+                <section id="contact" class="contact-section py-5" style="background-color: #f8f9fa;">
+                    <div class="container">
+                        <div class="row justify-content-center text-center mb-5">
+                            <div class="col-lg-8">
+                                <h2 class="section-title"><i class="fas fa-envelope"></i> Get in Touch</h2>
+                                <p class="lead">We're here to help. Whether you need advice on a project, or have any questions, feel free to reach out to us. We'll get back to you as soon as possible.</p>
+                            </div>
                         </div>
-                      </div>
 
-                      <div class="col-lg-7 mt-5 mt-lg-0">
-                        <!-- Google Maps iframe -->
-                        <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13715.018688586596!2d-97.74369985!3d30.2711286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5030dffb8d1%3A0x5ebc6d1c9d483500!2sAustin%2C%20TX%2C%20USA!5e0!3m2!1sen!2sng!4v1653309396766!5m2!1sen!2sng"
-                          width="100%"
-                          height="290"
-                          style="border:0;"
-                          allowfullscreen=""
-                          loading="lazy"
-                          referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                      </div>
+                        <div class="row text-center">
+                            <!-- Address -->
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="contact-box p-4 shadow-sm">
+                                    <i class="fas fa-map-marker-alt fa-3x mb-3"></i>
+                                    <h4>Our Location</h4>
+                                    <p>Your Business Address</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="contact-box p-4 shadow-sm">
+                                    <i class="fas fa-envelope fa-3x mb-3"></i>
+                                    <h4>Email Us</h4>
+                                    <p><a href="mailto:contact@pointconcept.com" class="text-decoration-none">contact@pointconcept.com</a></p>
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="contact-box p-4 shadow-sm">
+                                    <i class="fas fa-phone fa-3x mb-3"></i>
+                                    <h4>Call Us</h4>
+                                    <p><a href="tel:+12345678901" class="text-decoration-none">+1 234 567 8901</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Google Maps -->
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-lg-10">
+                                <div class="map-responsive shadow-sm">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13715.018688586596!2d-97.74369985!3d30.2711286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5030dffb8d1%3A0x5ebc6d1c9d483500!2sAustin%2C%20TX%2C%20USA!5e0!3m2!1sen!2sng!4v1653309396766!5m2!1sen!2sng"
+                                        width="100%"
+                                        height="350"
+                                        frameborder="0"
+                                        style="border: 0;"
+                                        allowfullscreen=""
+                                        aria-hidden="false"
+                                        tabindex="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </section>
-                <!-- End Contact Section -->
+
 
                 <footer class="text-center py-4">
                     <p>&copy; 2011 Point Concept Ltd. All rights reserved.</p>
