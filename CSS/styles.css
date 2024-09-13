@@ -645,3 +645,42 @@ a.text-decoration-none {
 .gallery-item:hover .gallery-caption {
     opacity: 1; /* Show caption on hover */
 }
+
+/* Adjusted gallery logo styling for uniform size and alignment */
+.gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px; /* Ensure all items have a uniform height */
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-logo {
+    max-width: 100%;
+    max-height: 200px; /* Control the maximum height of logos */
+    object-fit: contain; /* Ensure logos fit within their container */
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-logo {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.gallery-item:hover .gallery-caption {
+    opacity: 1; /* Show caption on hover */
+}
