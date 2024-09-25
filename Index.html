@@ -32,7 +32,10 @@
                                 <a class="nav-link" href="#services"><i class="fas fa-cogs"></i> Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#gallery"><i class="fas fa-images"></i> Portfolio</a>
+                                <a class="nav-link" href="#clients"><i class="fas fa-images"></i> Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a> <!-- New Portfolio Link -->
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
@@ -43,7 +46,7 @@
                         <p style="font-size: 0.8rem;">&copy; Designed & Created by <a href="https://fortiguardian.com/" target="_blank">FortiGuardian Consulting</a></p>
                     </footer>
                 </div>
-            </nav>            
+            </nav>                        
 
             <!-- Page content -->
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
@@ -190,508 +193,128 @@
                     </div>
                 </section>
 
-                <!-- Gallery Section -->
-                <section id="gallery" class="container py-5">
-                    <h2 class="text-center mb-4"><i class="fas fa-images"></i> Our Portfolio</h2>
+                <!-- Clients Section -->
+                <section id="clients" class="container py-5">
+                    <h2 class="text-center mb-4"><i class="fas fa-handshake"></i> Our Clients</h2>
                     <div class="row flex-nowrap overflow-auto">
-                        <div class="row flex-nowrap overflow-auto">
-                            <!-- Gallery Item (Diamond Bank) -->
-                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#diamondBankModal" class="text-decoration-none gallery-item">
-                                    <img src="Assets/img/Logos/diamondBank.png" class="gallery-logo mx-auto" alt="Diamond Bank Logo">
-                                    <div class="gallery-caption">Diamond Bank - Consultancy</div>
-                                </a>
-                            </div>
-                    
-                            <!-- Gallery Item (Heritage Bank) -->
-                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#heritageBankModal" class="text-decoration-none gallery-item">
-                                    <img src="Assets/img/Logos/heritageBank.jpg" class="gallery-logo mx-auto" alt="Heritage Bank Logo">
-                                    <div class="gallery-caption">Heritage Bank - Consultancy</div>
-                                </a>
-                            </div>
-
-                        <!-- Gallery Item (Redeemed Christian Church of God) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#rccgModal" class="text-decoration-none gallery-item">
-                                <img src="Assets/img/Logos/rcc2.png" class="gallery-logo mx-auto" alt="RCCG Logo">
-                                <div class="gallery-caption">RCCG - Consultancy & Construction</div>
-                            </a>
+                        <!-- Client Item (Diamond Bank) -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                            <img src="Assets/img/Logos/diamondBank.png" class="clients-logo mx-auto" alt="Diamond Bank Logo">
                         </div>
 
-                        <!-- Gallery Item (Emzor Pharmaceuticals) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#emzorModal" class="text-decoration-none gallery-item">
-                                <img src="Assets/img/Logos/emzor.jpg" class="gallery-logo mx-auto" alt="Emzor Pharmaceuticals Logo">
-                                <div class="gallery-caption">Emzor Pharmaceuticals - Consultancy</div>
-                            </a>
+                        <!-- Client Item (Heritage Bank) -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                            <img src="Assets/img/Logos/heritageBank.jpg" class="clients-logo mx-auto" alt="Heritage Bank Logo">
                         </div>
 
-                        <!-- Gallery Item (HubMart Stores) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#hubmartModal" class="text-decoration-none gallery-item">
-                                <img src="Assets/img/Logos/hubmart.png" class="gallery-logo mx-auto" alt="HubMart Stores Logo">
-                                <div class="gallery-caption">HubMart Stores - Consultancy</div>
-                            </a>
+                        <!-- Client Item (Redeemed Christian Church of God) -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                            <img src="Assets/img/Logos/rcc2.png" class="clients-logo mx-auto" alt="RCCG Logo">
                         </div>
 
-                        <!-- Gallery Item (Private Residential) -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#privateResidentialModal" class="text-decoration-none gallery-item">
-                                <img src="Assets/img/Logos/Picture8.jpg" class="gallery-logo mx-auto" alt="Private Residential Project Logo">
-                                <div class="gallery-caption">Private Residential - Development</div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center position-relative">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#hotelDesignModal" class="text-decoration-none gallery-item">
-                                <img src="Assets/Batch9/Picture14.jpg" class="gallery-logo mx-auto" alt="Proposed Hotel Design Logo">
-                                <div class="gallery-caption">Proposed Hotel Design - Ikota, Lekki</div>
-                            </a>
-                        </div>
-                        </div>
-                        <!-- Improved Modal Structure (Example: Diamond Bank Modal) -->
-                        <div class="modal fade" id="diamondBankModal" tabindex="-1" aria-labelledby="diamondBankModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <!-- Modal Header -->
-                                    <div class="modal-header bg-light">
-                                        <h5 class="modal-title"><i class="fas fa-building"></i> Diamond Bank - Consultancy</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-
-                                    <!-- Modal Body -->
-                                    <div class="modal-body">
-                                        <!-- Project Overview -->
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
-                                            <p>The bank management initiated an expansion drive of various business offices around the country, and our team was among the consultants invited to actualize this.</p>
-                                        </div>
-
-                                        <!-- Project Details -->
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
-                                            <p>We designed a modern and exclusive banking environment tailored to staff and customers. The ambiance promotes luxury and enhances operational efficiency.</p>
-                                        </div>
-
-                                        <!-- Goals and Achievements -->
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
-                                            <ul class="modal-list">
-                                                <li>Luxurious and modern banking environment.</li>
-                                                <li>Enhanced customer experience through exclusive spaces.</li>
-                                                <li>Efficient operational layouts for improved productivity.</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Image Gallery -->
-                                        <div class="row modal-image-grid">
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/1.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 1">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/DSC00750.JPG" class="img-fluid project-image" alt="Diamond Bank Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/DSC00760.JPG" class="img-fluid project-image" alt="Diamond Bank Project Image 3">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/DSC00786.JPG" class="img-fluid project-image" alt="Diamond Bank Project Image 4">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/IMG_4503.JPG" class="img-fluid project-image" alt="Diamond Bank Project Image 5">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/IMG_4521.JPG" class="img-fluid project-image" alt="Diamond Bank Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/IMG_4538.JPG" class="img-fluid project-image" alt="Diamond Bank Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/IMG_4682.JPG" class="img-fluid project-image" alt="Diamond Bank Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch11/Picture19.jpg" class="img-fluid project-image" alt="Diamond Bank Project Image 6">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Modal Footer -->
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Client Item (Emzor Pharmaceuticals) -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                            <img src="Assets/img/Logos/emzor.jpg" class="clients-logo mx-auto" alt="Emzor Pharmaceuticals Logo">
                         </div>
 
-                        <!-- Heritage Bank Modal -->
-                        <div class="modal fade" id="heritageBankModal" tabindex="-1" aria-labelledby="heritageBankModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-light">
-                                        <h5 class="modal-title"><i class="fas fa-building"></i> Heritage Bank - Consultancy</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
-                                            <p>We developed comprehensive design solutions to enhance the operational efficiency of Heritage Bank’s facilities. The goal was to modernize the space and improve both employee and customer experiences.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
-                                            <p>We provided innovative designs for the bank's layout, with a focus on operational efficiency and customer interaction zones. This project also included workspace optimization to foster better productivity.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
-                                            <ul class="modal-list">
-                                                <li>Optimized layout for improved staff performance.</li>
-                                                <li>Modernized customer service zones.</li>
-                                                <li>Enhanced operational workflows and space planning.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="row modal-image-grid">
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch12/Picture20.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 1">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch12/Picture21.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch12/Picture22.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 3">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch12/Picture23.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 4">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch12/Picture24.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 5">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch12/Picture25.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch12/Picture26.jpg" class="img-fluid project-image" alt="Heritage Bank Project Image 6">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Client Item (HubMart Stores) -->
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                            <img src="Assets/img/Logos/hubmart.png" class="clients-logo mx-auto" alt="HubMart Stores Logo">
                         </div>
-
-                        <!-- RCCG Modal -->
-                        <div class="modal fade" id="rccgModal" tabindex="-1" aria-labelledby="rccgModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-light">
-                                        <h5 class="modal-title"><i class="fas fa-church"></i> RCCG - Consultancy & Construction</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
-                                            <p>We were involved in the expansion of RCCG’s facilities, ensuring a modern, comfortable, and sustainable worship space while adhering to project timelines and budgets.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
-                                            <p>Our approach was to expand seating capacity, improve interior comfort, and integrate sustainable design principles. This allowed us to modernize the worship environment without losing its traditional essence.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
-                                            <ul class="modal-list">
-                                                <li>Expanded seating capacity for increased attendance.</li>
-                                                <li>Modernized interior design for comfort and ambiance.</li>
-                                                <li>Incorporated eco-friendly and energy-efficient materials.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="row modal-image-grid">
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch8/Picture10.jpg" class="img-fluid project-image" alt="RCCG Project Image 1">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch8/Picture11.jpg" class="img-fluid project-image" alt="RCCG Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch8/Picture9.jpg" class="img-fluid project-image" alt="RCCG Project Image 3">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch13/RCCG PROVINCE 1B1.jpg" class="img-fluid project-image" alt="RCCG Project Image 4">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch13/RCCG PROVINCE 2, 0.jpg" class="img-fluid project-image" alt="RCCG Project Image 5">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch13/RCCG PROVINCE 2D.jpg" class="img-fluid project-image" alt="RCCG Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch13/RCCG PROVINCE 2L2.jpg" class="img-fluid project-image" alt="RCCG Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch13/RCCG PROVINCE 2O.jpg" class="img-fluid project-image" alt="RCCG Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch13/RCCG PROVINCE 2Q.jpg" class="img-fluid project-image" alt="RCCG Project Image 6">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Emzor Pharmaceuticals Modal -->
-                        <div class="modal fade" id="emzorModal" tabindex="-1" aria-labelledby="emzorModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-light">
-                                        <h5 class="modal-title"><i class="fas fa-pills"></i> Emzor Pharmaceuticals - Consultancy</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
-                                            <p>Our team provided consultancy services to expand Emzor’s production facilities, integrating advanced technology and improving overall workflow to meet increasing demand.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
-                                            <p>We modernized the facility layout, incorporated cutting-edge technologies, and optimized the workspace for better efficiency and productivity.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
-                                            <ul class="modal-list">
-                                                <li>Increased production capacity through optimized design.</li>
-                                                <li>Enhanced workflow with modern technologies.</li>
-                                                <li>Improved space utilization for better productivity.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="row modal-image-grid">
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch6/view 11.jpg" class="img-fluid project-image" alt="Emzor Project Image 1">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch6/view 22.jpg" class="img-fluid project-image" alt="Emzor Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch6/view 33.jpg" class="img-fluid project-image" alt="Emzor Project Image 3">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch6/view 66.jpg" class="img-fluid project-image" alt="Emzor Project Image 4">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch6/view 11.jpg" class="img-fluid project-image" alt="Emzor Project Image 1">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- HubMart Stores Modal -->
-                        <div class="modal fade" id="hubmartModal" tabindex="-1" aria-labelledby="hubmartModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-light">
-                                        <h5 class="modal-title"><i class="fas fa-store"></i> HubMart Stores - Consultancy</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
-                                            <p>We collaborated with HubMart to optimize their retail spaces, improving customer flow, store layouts, and overall shopping experiences.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
-                                            <p>Our design solutions focused on creating intuitive layouts, enhancing visual appeal, and integrating sustainable materials to improve the shopping environment.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
-                                            <ul class="modal-list">
-                                                <li>Enhanced customer experience with modern retail layouts.</li>
-                                                <li>Introduced sustainable design features.</li>
-                                                <li>Optimized space for improved customer flow and engagement.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="row modal-image-grid">
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch5/view 11A.jpg" class="img-fluid project-image" alt="HubMart Project Image 1">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch5/view 44 - Copy.jpg" class="img-fluid project-image" alt="HubMart Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch5/view 71.jpg" class="img-fluid project-image" alt="HubMart Project Image 3">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch5/view 81.jpg" class="img-fluid project-image" alt="HubMart Project Image 4">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch5/view 11A.jpg" class="img-fluid project-image" alt="HubMart Project Image 1">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Private Residential Modal -->
-                        <div class="modal fade" id="privateResidentialModal" tabindex="-1" aria-labelledby="privateResidentialModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-light">
-                                        <h5 class="modal-title"><i class="fas fa-home"></i> Private Residential - Residential Developments</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-info-circle"></i> Project Overview</h6>
-                                            <p>We managed high-end residential development projects for private clients, focusing on luxurious, modern, and highly functional homes tailored to client specifications.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-tasks"></i> Project Details</h6>
-                                            <p>The project scope included designing custom living spaces, incorporating state-of-the-art technologies, and ensuring that every home was unique and luxurious.</p>
-                                        </div>
-                                        <div class="mb-4">
-                                            <h6 class="modal-subtitle"><i class="fas fa-trophy"></i> Goals and Achievements</h6>
-                                            <ul class="modal-list">
-                                                <li>Delivered bespoke luxury homes tailored to each client's needs.</li>
-                                                <li>Integrated cutting-edge technologies in home designs.</li>
-                                                <li>Created unique, aesthetically pleasing, and functional living spaces.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="row modal-image-grid">
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch1/April Showers 01.jpg" class="img-fluid project-image" alt="Private Residential Project Image 1">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch1/mayfair.jpg" class="img-fluid project-image" alt="Private Residential Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch1/Picture1.jpg" class="img-fluid project-image" alt="Private Residential Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch1/April Showers 04.jpg" class="img-fluid project-image" alt="Private Residential Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch2/TYPE A_Photo - 1.jpg" class="img-fluid project-image" alt="Private Residential Project Image 3">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch2/TYPE C_Photo - 1.jpg" class="img-fluid project-image" alt="Private Residential Project Image 4">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch2/TYPE B_Photo - 1.jpg" class="img-fluid project-image" alt="Private Residential Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch3/Picture3.jpg" class="img-fluid project-image" alt="Private Residential Project Image 5">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch3/Picture4.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch3/Picture5.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch4/Picture6.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch4/Picture7.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch4/Picture8.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch7/IMG_20151028_142416.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch7/IMG_20151028_142425.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch7/IMG_20151028_144030.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch7/IMG_20151120_083152.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch7/IMG_20151120_083308.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch7/IMG_20151120_083324.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch7/IMG_20151120_083409.jpg" class="img-fluid project-image" alt="Private Residential Project Image 6">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch1/April Showers 01.jpg" class="img-fluid project-image" alt="Private Residential Project Image 1">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Modal for Proposed Hotel Design -->
-                        <div class="modal fade" id="hotelDesignModal" tabindex="-1" aria-labelledby="hotelDesignModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-xl">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Proposed Hotel Design - Ikota, Lekki, Lagos</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <h6>Project Overview</h6>
-                                        <p>
-                                            A contemporary hotel design intended to enhance the skyline and become an instant landmark along the Ikota, Lekki axis. The client’s vision was to create a luxurious, minimalistic, and natural space that embodies modern design.
-                                        </p>
-
-                                        <h6>Design Concept</h6>
-                                        <p>
-                                            Our design is a harmonious combination of cozy garden spaces and a lush, undulating, wavy structure that promises a visually appealing experience. The ambiance is designed to offer a luxurious experience, blending outdoor garden spaces with contemporary architecture. 
-                                        </p>
-
-                                        <h6>Goals and Achievements</h6>
-                                        <ul class="modal-list">
-                                            <li>Created a visually striking, minimalist design with clean lines and natural elements.</li>
-                                            <li>Utilized space efficiently to maximize luxury and comfort.</li>
-                                            <li>Incorporated contemporary architecture to create an iconic, landmark structure.</li>
-                                            <li>Designed an inviting outdoor garden to complement the interior spaces.</li>
-                                        </ul>
-
-                                        <div class="row modal-image-grid">
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch9/Picture12.jpg" class="img-fluid project-image" alt="Hotel Design Project Image 1">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch9/Picture13.jpg" class="img-fluid project-image" alt="Hotel Design Project Image 2">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch9/Picture14.jpg" class="img-fluid project-image" alt="Hotel Design Project Image 3">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch9/Picture15.jpg" class="img-fluid project-image" alt="Hotel Design Project Image 4">
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <img src="Assets/Batch9/Picture12.jpg" class="img-fluid project-image" alt="Hotel Design Project Image 1">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
                     </div>
                 </section>
+
+                <!-- Portfolio Section -->
+                <section id="portfolio" class="container py-5">
+                    <h2 class="text-center mb-4"><i class="fas fa-briefcase"></i> Portfolio</h2>
+                    <div class="row">
+                        <!-- Portfolio Item 1 -->
+                        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                            <img src="Assets/Batch1/April Showers 01.jpg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal1" alt="Project 1">
+                            <h4 class="mt-3">2 Units Semi Detached Residences</h4>
+                        </div>
+                        
+                        <!-- Portfolio Item 2 -->
+                        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                            <img src="Assets/Batch2/TYPE A_Photo - 1.jpg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal2" alt="Project 2">
+                            <h4 class="mt-3">Proposed Prototype Residences – Cowrie Creek Estate</h4>
+                        </div>
+                        
+                        <!-- Portfolio Item 3 -->
+                        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                            <img src="Assets/Batch3/Picture3.jpg" class="img-fluid portfolio-img" data-bs-toggle="modal" data-bs-target="#portfolioModal3" alt="Project 3">
+                            <h4 class="mt-3">Lekki Luxury Flats - Interior Re-Modelling</h4>
+                        </div>
+                        
+                        <!-- Add more portfolio items similarly -->
+                    </div>
+                </section>
+
+                <!-- Portfolio Modals -->
+                <!-- Modal 1 -->
+                <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="portfolioModalLabel1">2 Units Semi Detached Residences</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portfolio-gallery">
+                                    <img src="Assets/Batch1/April Showers 04.jpg" class="img-fluid mb-3" alt="Project Image">
+                                    <img src="Assets/Batch1/mayfair.jpg" class="img-fluid mb-3" alt="Project Image">
+                                </div>
+                                <p>
+                                    A Four-family luxury residence designed in a classy contemporary style. Each unit consists of two semi-detached residences of five bedrooms. 
+                                    The building sits on a site area of 1350sqm, providing parking and landscaped outdoor activities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 2 -->
+                <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModalLabel2" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="portfolioModalLabel2">Proposed Prototype Residences – Cowrie Creek Estate</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portfolio-gallery">
+                                    <img src="Assets/Batch2/TYPE B_Photo - 1.jpg" class="img-fluid mb-3" alt="Project Image">
+                                </div>
+                                <p>
+                                    This estate, developed by the NLNG Coop, aimed to provide three prototype designs (Basic, Classic, and Luxury) with a strong modernist style 
+                                    for the collective development of residences for its members.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 3 -->
+                <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="portfolioModalLabel3">Lekki Luxury Flats - Interior Re-Modelling</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="portfolio-gallery">
+                                    <img src="Assets/Batch3/Picture5.jpg" class="img-fluid mb-3" alt="Project Image">
+                                </div>
+                                <p>
+                                    This project involved remodeling the living spaces to offer a luxe modern home with cutting-edge luxury spaces 
+                                    and features that encourage an inviting and vibrant social lifestyle.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 <!-- Contact Section -->
                 <section id="contact" class="contact-section py-5" style="background-color: #f8f9fa;">

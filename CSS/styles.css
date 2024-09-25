@@ -52,70 +52,6 @@ main {
     min-height: 100vh;
 }
 
-
-
-/* Icons */
-.nav-link i {
-    margin-right: 10px;
-}
-
-/* Service Icons */
-.service-list i {
-    margin-right: 8px;
-    color: #011224;
-}
-
-/* Subtle Hover Effect */
-.service-list li:hover {
-    color: #333;
-}
-
-/* Heading Font Styles */
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-}
-
-h1, h2 {
-    letter-spacing: 1px;
-}
-
-.service-box {
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.service-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    background-color: #ffffff;
-}
-
-.service-box i {
-    color: #011224;
-    margin-bottom: 15px;
-}
-
-.service-box h4 {
-    font-weight: 600;
-    color: #333;
-}
-
-.service-box p {
-    color: #555;
-    margin-bottom: 0;
-}
-
-@media (max-width: 768px) {
-    .sidebar {
-        display: none;
-    }
-    main {
-        margin-left: 0;
-        width: 100%;
-    }
-}
-
 .home-section {
     height: 100vh;
     display: flex;
@@ -158,138 +94,6 @@ h1, h2 {
 .home-content img.logo-center {
     width: 150px;
     margin-bottom: 20px;
-}
-
-.about-section {
-    color: #011224;
-    padding: 60px 0;
-    position: relative;
-    z-index: 0;
-}
-
-
-.about-box {
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    transition: transform 0.3s ease;
-}
-
-.about-box:hover {
-    transform: translateY(-10px);
-    background-color: #ffffff;
-}
-
-.about-box i {
-    color: #011224;
-}
-
-.about-box h4 {
-    font-weight: 600;
-    color: #011224;
-}
-
-.list-unstyled li {
-    font-size: 1rem;
-    margin-bottom: 10px;
-    color: #011224;
-}
-
-.list-unstyled li i {
-    color: #011224;
-    font-size: 1.2rem;
-}
-
-
-.services-section {
-    color: #011224;
-    padding: 60px 0;
-    padding-left: 20px;
-    position: relative;
-    z-index: 0;
-}
-
-.services-section .service-list {
-    padding-left: 60px; /* Adjust this value for the desired amount of padding */
-    margin-top: 20px;   /* Optional: Add some margin to the top for spacing */
-}
-
-footer {
-    background: #f8f9fa;
-    padding: 10px 0;
-    text-align: center;
-}
-
-#lightgallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-#lightgallery a {
-    flex: 1 0 calc(20% - 10px);
-    margin-bottom: 10px;
-}
-
-#lightgallery img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.contact .info {
-    background: #fff;
-    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
-    padding: 30px;
-    width: 100%;
-}
-
-.contact .info h4 {
-    font-size: 22px;
-    color: #011224;
-    font-weight: 700;
-    margin: 0 0 10px 0;
-    padding: 0;
-    line-height: 1;
-}
-
-.contact .info p {
-    font-size: 14px;
-    color: #011224;
-    margin: 0;
-    padding: 0;
-}
-
-.contact .info .address, .contact .info .email, .contact .info .phone {
-    margin-bottom: 20px;
-}
-
-.contact .info i {
-    font-size: 20px;
-    color: #011224;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #e7f1fd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-    margin-right: 15px;
-}
-
-.contact .info .address:hover i, .contact .info .email:hover i, .contact .info .phone:hover i {
-    background: #011224;
-    color: #fff;
-}
-
-/* Portfolio Styles */
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
 }
 
 .home-section {
@@ -341,103 +145,126 @@ h5{
   color: #173b6c;
 }
 
-
-/* Logo styling with faint shadow */
-.gallery-logo {
-    width: 200px;
-    height: 200px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1); /* Faint shadow */
-    border-radius: 8px; /* Optional: Adds subtle rounding to logos */
-}
-
-/* Hover effect: Slight zoom and darker shadow */
-.gallery-logo:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
-}
-
-/* Caption styling */
-.gallery-caption {
-    font-size: 14px;
+/* Icons */
+.nav-link i,
+.service-list i {
+    margin-right: 10px;
     color: #011224;
-    margin-top: 10px;
-    font-weight: 500;
 }
 
-/* Optional: Remove underline from links */
-a.text-decoration-none {
-    text-decoration: none;
-    color: inherit;
+/* Service Section */
+.service-box {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Horizontal scrolling for logos */
-#gallery .row {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px; /* Space between logos */
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
 }
 
-#gallery .col-lg-3, #gallery .col-md-4, #gallery .col-sm-6 {
-    flex: 0 0 auto;
+.service-box i {
+    color: #011224;
+    margin-bottom: 15px;
 }
 
-/* Add spacing between projects */
-#gallery .col-lg-3 {
-    padding: 0 15px;
+.service-box h4 {
+    font-weight: 600;
+    color: #333;
 }
 
-/* Hide horizontal scrollbar but still allow horizontal scrolling */
-#gallery .row {
-    overflow-x: scroll;  /* Enable scrolling */
-    scrollbar-width: none;  /* Hide scrollbar in Firefox */
-    -ms-overflow-style: none;  /* Hide scrollbar in Internet Explorer */
+.service-box p {
+    color: #555;
+    margin-bottom: 0;
 }
 
-#gallery .row::-webkit-scrollbar {
-    display: none;  /* Hide scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    main {
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
-/* Adjust padding to avoid extra space at the bottom */
-#gallery {
-    padding-bottom: 20px;  /* Adjust as necessary */
+/* About Section */
+.about-section, .services-section {
+    color: #011224;
+    padding: 60px 0;
 }
 
-/* Gallery logos */
-.gallery-logo {
-    width: 200px;
-    height: 200px;
+.about-box {
+    border-radius: 10px;
+    background-color: #f9f9f9;
     transition: transform 0.3s ease;
-    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  Removed box effect from portfolio logos */
 }
 
-.gallery-logo:hover {
-    transform: scale(1.1);
+.about-box:hover {
+    transform: translateY(-10px);
+    background-color: #ffffff;
 }
 
-/* Gallery caption styling */
-.gallery-caption {
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 10px;
+.list-unstyled li {
+    font-size: 1rem;
+    margin-bottom: 10px;
     color: #011224;
 }
 
-/* Modal image grid styling */
+footer {
+    background: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Updated Clients Section */
+#clients .row {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left for horizontal scroll */
+    align-items: center; /* Vertically center the logos */
+    flex-wrap: nowrap; /* Keep items in a single line */
+    gap: 20px; /* Space between logos */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    padding-bottom: 20px;
+}
+
+#clients .row::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge: Hide scrollbar */
+}
+
+.col-lg-3, .col-md-4, .col-sm-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Fixed height for the div */
+}
+
+.clients-logo {
+    max-width: 150px; /* Set max width */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    border-radius: 8px;
+}
+
+.clients-logo:hover {
+    transform: scale(1.05); /* Zoom in effect */
+}
+
+/* Modal Styles */
 .modal-image-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.modal-image-grid .col-md-4 {
-    margin-bottom: 20px;
+    gap: 15px;
+    justify-content: center;
 }
 
 .project-image {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -445,19 +272,11 @@ a.text-decoration-none {
     transform: scale(1.05);
 }
 
-/* Modal body styling */
 .modal-body {
     font-size: 16px;
     color: #011224;
 }
 
-.modal-body h6 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 20px;
-}
-
-/* Modal footer button */
 .modal-footer button {
     background-color: #011224;
     color: #fff;
@@ -471,21 +290,9 @@ a.text-decoration-none {
     background-color: #011224;
 }
 
-
+/* Contact Section */
 .contact-section {
     background-color: #f8f9fa;
-}
-
-.section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #007bff;
-    margin-bottom: 20px;
-}
-
-.lead {
-    font-size: 1.2rem;
-    color: #555;
 }
 
 .contact-box {
@@ -493,25 +300,6 @@ a.text-decoration-none {
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
-}
-
-.contact-box i {
-    color: #011224;
-}
-
-.contact-box h4 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.contact-box p {
-    color: #011224;
-    font-size: 1rem;
-}
-
-.contact-box a {
-    color: #011224;
 }
 
 .contact-box:hover {
@@ -528,159 +316,4 @@ a.text-decoration-none {
     width: 100%;
     height: 350px;
     border: 0;
-}
-
-
-/* Modal Header */
-.modal-header {
-    border-bottom: none;
-    padding: 20px;
-    background-color: #f8f9fa;
-}
-
-.modal-title {
-    font-size: 1.75rem;
-    font-weight: 600;
-    color: #011224;
-}
-
-.modal-header .fas {
-    margin-right: 10px;
-}
-
-/* Modal Body */
-.modal-body {
-    padding: 30px;
-    line-height: 1.8;
-}
-
-.modal-subtitle {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #011224;
-}
-
-.modal-body .fas {
-    margin-right: 8px;
-    color: #011224;
-}
-
-.modal-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.modal-list li {
-    padding: 8px 0;
-    font-size: 1.1rem;
-}
-
-/* Image Grid in Modal */
-.modal-image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
-
-.project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-/* Zoom Effect on Hover */
-.project-image:hover {
-    transform: scale(1.05);
-}
-
-/* Modal Footer */
-.modal-footer {
-    padding: 20px;
-    border-top: none;
-}
-
-.modal-footer .btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-
-/* Gallery Section */
-.gallery-item {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-}
-
-.gallery-logo {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-    display: block;
-}
-
-.gallery-item:hover .gallery-logo {
-    transform: scale(1.1); /* Slight zoom on hover */
-}
-
-.gallery-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    color: white;
-    font-size: 1rem;
-    padding: 10px;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Fade-in effect */
-    text-align: center;
-}
-
-.gallery-item:hover .gallery-caption {
-    opacity: 1; /* Show caption on hover */
-}
-
-/* Adjusted gallery logo styling for uniform size and alignment */
-.gallery-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px; /* Ensure all items have a uniform height */
-    position: relative;
-    overflow: hidden;
-}
-
-.gallery-logo {
-    max-width: 100%;
-    max-height: 200px; /* Control the maximum height of logos */
-    object-fit: contain; /* Ensure logos fit within their container */
-    transition: transform 0.3s ease;
-}
-
-.gallery-item:hover .gallery-logo {
-    transform: scale(1.05); /* Slight zoom on hover */
-}
-
-.gallery-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: white;
-    font-size: 1rem;
-    padding: 10px;
-    opacity: 0; /* Hidden initially */
-    transition: opacity 0.3s ease;
-    text-align: center;
-}
-
-.gallery-item:hover .gallery-caption {
-    opacity: 1; /* Show caption on hover */
 }
