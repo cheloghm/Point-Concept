@@ -247,26 +247,53 @@ footer {
     color: #7f8c8d;
 }
 
-/* Team Member Images */
-.team-box img {
-    transition: transform 0.3s ease;
-}
+/* Management Team Section Styles */
 
-.team-box img:hover {
-    transform: scale(1.05);
-}
-
-/* Team Boxes */
-.team-box {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
+#management-team .team-box {
+    min-height: 250px; /* Ensures boxes are tall enough to prevent overflow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.team-box:hover {
+#management-team .team-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#management-team .team-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+#management-team h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+}
+
+#management-team p {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    margin-bottom: 0;
+    word-wrap: break-word; /* Prevents text from overflowing */
+}
+
+@media (max-width: 576px) {
+    #management-team .team-box {
+        min-height: 220px;
+    }
+
+    #management-team h5 {
+        font-size: 1rem;
+    }
+
+    #management-team p {
+        font-size: 0.9rem;
+    }
 }
 
 /* Service Icons */
